@@ -1,3 +1,6 @@
+#ifndef SAFE_HPP
+#define SAFE_HPP
+
 #include <limits>
 #include <stdexcept>
 #include <cmath>
@@ -150,3 +153,5 @@ namespace Safe
         return result;
     }
 }
+
+#endif // SAFE_HPP
